@@ -12,10 +12,6 @@ resource "google_pubsub_topic" "create_destroy_topic" {
   name = "notify_destory_topic"
 }
 
-resource "google_pubsub_topic" "create_destroy_topic" {
-  name = "notify_destory_topic"
-}
-
 
 
 
