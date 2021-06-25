@@ -1,8 +1,8 @@
 provider "google" {
-  project = "dataprod-cluster-testing-1"
+  project = "	test-scheduler-309908"
   region  = "us-central1"
   zone    = "us-central1-f"
-  credentials = file("dataprod-cluster-testing-1-7444c4c90649.json")
+  credentials = file("test-scheduler-309908-9a714b3df80c.json")
 }
 
 data "google_composer_image_versions" "all" {
